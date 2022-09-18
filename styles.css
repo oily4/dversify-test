@@ -1,0 +1,172 @@
+body {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+#title {
+    background-color: #3ca5fc;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 3%;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+h3 {
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: ubuntu;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+p {
+    color: #8f8f8f;
+    font-size: small;
+}
+
+/* Nav Bar */
+.navbar {
+    padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 14px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+/* Download Button */
+.download-button {
+    margin: 3% 1.5% 3% 0;
+}
+
+/* title Picture */
+.title-image {
+    width: 70%;
+    position: relative;
+}
+
+/* features */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #79c3ff;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #3ca5fc;
+}
+
+/* Testimonial */
+#testimonials {
+    background-color: #79c3ff;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* CTA */
+#cta {
+    background-color: #79c3ff;
+    color: #fff;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.cta {
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+/*  footer */
+.footer {
+    text-align: center;
+    padding: 1% 10%;
+
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link:hover {
+    color: #fff;
+}
+
+.social-icon {
+    font-size: 20px;
+    margin: 10px 5px;
+}
+
+/* media Query */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+    }
+}
